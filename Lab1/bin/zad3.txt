@@ -1,0 +1,10 @@
+Dla typu String, typem nadrzędnym jest Object.
+
+Dla typu Scanner, typem nadrzędnym jest również Object.
+
+Dla typu ImageOutputStream, jest to interfejs, który rozszerza interfejsy ImageInputStream i DataOutput. 
+Nie ma jednej konkretnej klasy nadrzędnej dla ImageOutputStream, ale istnieją różne klasy, które implementują 
+ten interfejs, takie jak: FileCacheImageOutputStream, FileImageOutputStream, ImageOutputStreamImpl, MemoryCacheImageOutputStream.
+
+Każda klasa w Javie, która nie ma wyraźnie zadeklarowanej klasy nadrzędnej, dziedziczy domyślnie po klasie Object. 
+To oznacza, że Object jest klasą nadrzędną dla każdej klasy w Javie.
